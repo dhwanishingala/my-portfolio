@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#FAF0EE"/>
+  <path d="M200 550 L400 350 L600 450 L900 200" fill="none" stroke="#B8452A" stroke-width="6"/>
+  <circle cx="400" cy="350" r="16" fill="#7EB8DA"/>
+  <circle cx="600" cy="450" r="16" fill="#B8452A"/>
+  <text x="200" y="640" font-family="ui-monospace,monospace" font-size="36" fill="#2C2825">API / REST</text>
+</svg>
