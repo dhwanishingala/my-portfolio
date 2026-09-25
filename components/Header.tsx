@@ -4,9 +4,10 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { site } from "@/data/site";
+import { ResumeIcon } from "./SocialIcons";
 import { useResumeModal } from "./ResumeModalProvider";
 
-const sectionIds = ["hero", "about", "skills", "work", "contact"];
+const sectionIds = ["hero", "about", "experience", "skills", "projects", "contact"];
 
 export function Header() {
   const { openResume } = useResumeModal();
@@ -62,15 +63,16 @@ export function Header() {
           <button
             type="button"
             onClick={openResume}
-            className="text-sm font-medium text-charcoal transition hover:text-accent"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-charcoal transition hover:text-accent"
           >
+            <ResumeIcon className="h-4 w-4" />
             Resume
           </button>
           <Link
-            href="#work"
+            href="#projects"
             className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-hover"
           >
-            See my work
+            See projects
           </Link>
         </nav>
 
@@ -105,22 +107,23 @@ export function Header() {
             <li>
               <button
                 type="button"
-                className="py-2 text-charcoal"
+                className="inline-flex items-center gap-2 py-2 text-charcoal"
                 onClick={() => {
                   setMobileOpen(false);
                   openResume();
                 }}
               >
+                <ResumeIcon className="h-4 w-4" />
                 Resume
               </button>
             </li>
             <li>
               <Link
-                href="#work"
+                href="#projects"
                 className="inline-block rounded-full bg-accent px-4 py-2 text-sm font-medium text-white"
                 onClick={() => setMobileOpen(false)}
               >
-                See my work
+                See projects
               </Link>
             </li>
           </ul>
