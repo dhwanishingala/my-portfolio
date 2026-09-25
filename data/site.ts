@@ -7,25 +7,30 @@ export type SkillGroup = {
 
 export const site = {
   url: "https://dhwanishingala.com",
-  name: "Dhwanish Singala",
-  role: "Software Engineer",
+  name: "Dhwani Shingala",
+  role: "Software Engineer @ UI Health",
   tagline:
     "Building thoughtful products with clean code and a focus on real-world impact.",
   heroMono: "Software engineer · builder · curious learner",
-  email: "hello@dhwanishingala.com",
+  email: "dshingala19@gmail.com",
   social: {
     github: "https://github.com/dhwanishingala",
     linkedin: "https://www.linkedin.com/in/dhwanishingala",
+    /** Paste your Instagram profile URL when ready */
+    instagram: "",
   },
   nav: [
     { label: "About", href: "#about" },
+    { label: "Experience", href: "#experience" },
     { label: "Skills", href: "#skills" },
-    { label: "Work", href: "#work" },
+    { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" },
   ],
   about: {
-    photo: "/profile.svg",
-    photoAlt: "Dhwanish Singala",
+    photo: "/profile-hero.jpg",
+    photoAlt: "Dhwani Shingala",
+    photoWidth: 1024,
+    photoHeight: 912,
     paragraphs: [
       {
         segments: [
@@ -67,7 +72,7 @@ export const site = {
     },
   ] as SkillGroup[],
   footer: {
-    note: "Built with care by Dhwanish",
+    note: "Built with care by Dhwani",
     year: new Date().getFullYear(),
   },
 } as const;

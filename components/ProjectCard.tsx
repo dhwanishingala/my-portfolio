@@ -17,7 +17,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <ScrollReveal>
       <article
-        id={`work-${project.slug}`}
+        id={`project-${project.slug}`}
         className="group overflow-hidden rounded-2xl border border-charcoal/10 bg-beige transition duration-300 hover:-translate-y-1 hover:shadow-xl"
       >
         <div className="relative aspect-[16/10] overflow-hidden bg-powder">

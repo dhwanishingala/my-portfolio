@@ -5,6 +5,7 @@ type SectionProps = {
   title: string;
   eyebrow?: string;
   background?: "beige" | "powder" | "blush";
+  compact?: boolean;
   children: ReactNode;
 };
 
@@ -19,12 +20,13 @@ export function Section({
   title,
   eyebrow,
   background = "beige",
+  compact = false,
   children,
 }: SectionProps) {
   return (
     <section
       id={id}
-      className={`scroll-mt-24 px-4 py-20 sm:px-6 lg:px-8 ${bgMap[background]}`}
+      className={`scroll-mt-24 px-4 sm:px-6 lg:px-8 ${compact ? "py-10 sm:py-12" : "py-20"} ${bgMap[background]}`}
     >
       <div className="mx-auto max-w-5xl">
         {eyebrow ? (
@@ -32,10 +34,14 @@ export function Section({
             {eyebrow}
           </p>
         ) : null}
-        <h2 className="mt-2 text-3xl font-semibold tracking-tight text-charcoal sm:text-4xl">
+        <h2
+          className={`mt-2 font-semibold tracking-tight text-charcoal ${
+            compact ? "text-2xl" : "text-3xl sm:text-4xl"
+          }`}
+        >
           {title}
         </h2>
-        <div className="mt-10">{children}</div>
+        <div className={compact ? "mt-5" : "mt-10"}>{children}</div>
       </div>
     </section>
   );
