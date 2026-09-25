@@ -3,6 +3,7 @@
 import { site } from "@/data/site";
 import { Section } from "./Section";
 import { ScrollReveal } from "./ScrollReveal";
+import { ResumeIcon } from "./SocialIcons";
 import { useResumeModal } from "./ResumeModalProvider";
 
 export function AboutSection() {
@@ -28,9 +29,10 @@ export function AboutSection() {
           <button
             type="button"
             onClick={openResume}
-            className="mt-4 inline-flex rounded-full border-2 border-accent px-5 py-2.5 text-sm font-semibold text-accent transition hover:bg-accent hover:text-white"
+            className="mt-4 inline-flex items-center gap-2 rounded-full border-2 border-accent px-5 py-2.5 text-sm font-semibold text-accent transition hover:bg-accent hover:text-white"
           >
-            View resume
+            <ResumeIcon className="h-4 w-4" />
+            Resume
           </button>
         </div>
       </ScrollReveal>
