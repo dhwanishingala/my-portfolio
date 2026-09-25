@@ -1,4 +1,4 @@
-# Dhwanish Singala — Portfolio
+# Dhwani Shingala — Portfolio
 
 Single-page portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**. Content lives in [`data/site.ts`](data/site.ts) and [`data/projects.ts`](data/projects.ts).
 
