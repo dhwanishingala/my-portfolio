@@ -1,10 +1,5 @@
 export type BioSegment = { text: string; accent?: boolean };
 
-export type SkillGroup = {
-  label: string;
-  items: string[];
-};
-
 export const site = {
   url: "https://dhwanishingala.com",
   name: "Dhwani Shingala",
@@ -57,20 +52,6 @@ export const site = {
       },
     ] as { segments: BioSegment[] }[],
   },
-  skills: [
-    {
-      label: "Languages",
-      items: ["TypeScript", "JavaScript", "Python", "Java", "SQL"],
-    },
-    {
-      label: "Frontend",
-      items: ["React", "Next.js", "HTML/CSS", "Tailwind CSS"],
-    },
-    {
-      label: "Backend & tools",
-      items: ["Node.js", "REST APIs", "Git", "PostgreSQL", "Docker"],
-    },
-  ] as SkillGroup[],
   footer: {
     note: "Built with care by Dhwani",
     year: new Date().getFullYear(),
