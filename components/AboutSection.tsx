@@ -1,14 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { site } from "@/data/site";
 import { Section } from "./Section";
 import { ScrollReveal } from "./ScrollReveal";
-import { ResumeIcon } from "./SocialIcons";
-import { useResumeModal } from "./ResumeModalProvider";
 
 export function AboutSection() {
-  const { openResume } = useResumeModal();
-
   return (
     <Section id="about" title="About me" eyebrow="Story" background="blush">
       <ScrollReveal>
@@ -26,14 +23,12 @@ export function AboutSection() {
               )}
             </p>
           ))}
-          <button
-            type="button"
-            onClick={openResume}
+          <Link
+            href="#projects"
             className="mt-4 inline-flex items-center gap-2 rounded-full border-2 border-accent px-5 py-2.5 text-sm font-semibold text-accent transition hover:bg-accent hover:text-white"
           >
-            <ResumeIcon className="h-4 w-4" />
-            Resume
-          </button>
+            Side gigs
+          </Link>
         </div>
       </ScrollReveal>
     </Section>

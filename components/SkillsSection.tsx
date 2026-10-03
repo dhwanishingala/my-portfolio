@@ -257,7 +257,7 @@ export function SkillsSection() {
   const pillIndexBySkill = useMemo(() => buildPillIndexMap(), []);
 
   return (
-    <Section id="skills" title="Skills" eyebrow="Toolbox" background="powder">
+    <Section id="skills" title="My arsenal" eyebrow="Toolbox" background="powder">
       <DesktopBento pillIndexBySkill={pillIndexBySkill} />
       <MobileAccordion />
     </Section>

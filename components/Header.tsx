@@ -72,7 +72,7 @@ export function Header() {
             href="#projects"
             className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-hover"
           >
-            See projects
+            Side gigs
           </Link>
         </nav>
 
@@ -123,7 +123,7 @@ export function Header() {
                 className="inline-block rounded-full bg-accent px-4 py-2 text-sm font-medium text-white"
                 onClick={() => setMobileOpen(false)}
               >
-                See projects
+                Side gigs
               </Link>
             </li>
           </ul>
