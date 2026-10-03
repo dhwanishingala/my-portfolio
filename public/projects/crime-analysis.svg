@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#FAF0EE"/>
+  <!-- map grid -->
+  <rect x="140" y="120" width="720" height="480" rx="16" fill="#E6F2FA" opacity="0.55"/>
+  <g stroke="#2C2825" stroke-width="2" opacity="0.12">
+    <line x1="260" y1="120" x2="260" y2="600"/>
+    <line x1="380" y1="120" x2="380" y2="600"/>
+    <line x1="500" y1="120" x2="500" y2="600"/>
+    <line x1="620" y1="120" x2="620" y2="600"/>
+    <line x1="740" y1="120" x2="740" y2="600"/>
+    <line x1="140" y1="240" x2="860" y2="240"/>
+    <line x1="140" y1="360" x2="860" y2="360"/>
+    <line x1="140" y1="480" x2="860" y2="480"/>
+  </g>
+  <!-- scatter / hotspot -->
+  <circle cx="520" cy="320" r="14" fill="#B8452A"/>
+  <circle cx="560" cy="300" r="10" fill="#B8452A" opacity="0.75"/>
+  <circle cx="480" cy="340" r="11" fill="#B8452A" opacity="0.85"/>
+  <circle cx="540" cy="360" r="9" fill="#7EB8DA"/>
+  <circle cx="500" cy="280" r="8" fill="#7EB8DA" opacity="0.8"/>
+  <circle cx="590" cy="340" r="12" fill="#B8452A" opacity="0.65"/>
+  <circle cx="300" cy="420" r="7" fill="#2C2825" opacity="0.2"/>
+  <circle cx="720" cy="260" r="7" fill="#2C2825" opacity="0.18"/>
+  <circle cx="650" cy="500" r="8" fill="#7EB8DA" opacity="0.5"/>
+  <!-- mini chart -->
+  <rect x="920" y="180" width="160" height="120" rx="12" fill="#fff" opacity="0.9"/>
+  <rect x="940" y="260" width="24" height="20" fill="#7EB8DA" opacity="0.6"/>
+  <rect x="972" y="240" width="24" height="40" fill="#B8452A" opacity="0.85"/>
+  <rect x="1004" y="250" width="24" height="30" fill="#7EB8DA"/>
+  <rect x="1036" y="220" width="24" height="60" fill="#B8452A" opacity="0.55"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#F7F2EA"/>
+  <!-- message paths -->
+  <path d="M320 280 Q480 200 640 280" fill="none" stroke="#B8452A" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M640 280 L820 380" fill="none" stroke="#7EB8DA" stroke-width="5" stroke-linecap="round"/>
+  <path d="M820 380 Q700 520 520 480" fill="none" stroke="#B8452A" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M520 480 L320 380" fill="none" stroke="#7EB8DA" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <path d="M320 380 L640 280" fill="none" stroke="#2C2825" stroke-width="3" stroke-linecap="round" opacity="0.2" stroke-dasharray="12 14"/>
+  <path d="M520 480 L820 380" fill="none" stroke="#2C2825" stroke-width="3" stroke-linecap="round" opacity="0.15" stroke-dasharray="12 14"/>
+  <!-- arrowheads -->
+  <polygon points="628,272 652,284 628,296" fill="#B8452A" opacity="0.85"/>
+  <polygon points="808,372 832,384 808,396" fill="#7EB8DA"/>
+  <polygon points="512,472 528,488 544,472" fill="#B8452A" opacity="0.6"/>
+  <!-- cluster nodes -->
+  <circle cx="320" cy="280" r="44" fill="#B8452A"/>
+  <circle cx="320" cy="280" r="28" fill="#F7F2EA" opacity="0.35"/>
+  <circle cx="640" cy="280" r="52" fill="#7EB8DA"/>
+  <circle cx="640" cy="280" r="32" fill="#fff" opacity="0.4"/>
+  <circle cx="820" cy="380" r="44" fill="#B8452A" opacity="0.9"/>
+  <circle cx="520" cy="480" r="48" fill="#7EB8DA" opacity="0.85"/>
+  <circle cx="320" cy="380" r="40" fill="#2C2825" opacity="0.22"/>
+  <!-- message packets -->
+  <rect x="470" y="218" width="36" height="22" rx="6" fill="#E6F2FA" stroke="#B8452A" stroke-width="3"/>
+  <rect x="680" y="420" width="36" height="22" rx="6" fill="#E6F2FA" stroke="#7EB8DA" stroke-width="3"/>
+  <rect x="400" y="430" width="36" height="22" rx="6" fill="#E6F2FA" stroke="#B8452A" stroke-width="3" opacity="0.8"/>
+</svg>

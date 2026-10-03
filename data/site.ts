@@ -11,14 +11,12 @@ export const site = {
   social: {
     github: "https://github.com/dhwanishingala",
     linkedin: "https://www.linkedin.com/in/dhwanishingala",
-    /** Paste your Instagram profile URL when ready */
-    instagram: "",
+    instagram: "https://www.instagram.com/_dhwanishingala_/",
   },
   nav: [
     { label: "About", href: "#about" },
     { label: "Experience", href: "#experience" },
-    { label: "Skills", href: "#skills" },
-    { label: "Projects", href: "#projects" },
+    { label: "Arsenal", href: "#skills" },
     { label: "Contact", href: "#contact" },
   ],
   about: {
@@ -32,15 +30,17 @@ export const site = {
           { text: "I'm a " },
           { text: "software engineer", accent: true },
           {
-            text: " who enjoys turning fuzzy problems into shippable software—from prototypes to polished user experiences.",
+            text: " who loves coding—turning a fuzzy problem into something clear to use and clear to maintain.",
           },
         ],
       },
       {
         segments: [
-          { text: "I care about " },
-          { text: "clarity in code", accent: true },
-          { text: ", accessible interfaces, and tools that save people time. When I'm not coding, you'll find me exploring new tech and side projects." },
+          { text: "I'm also a " },
+          { text: "foodie", accent: true },
+          {
+            text: ". I love hikes, weird exercise classes, and pretty much any excuse to move. Games too—screen or board, I'll play.",
+          },
         ],
       },
       {
